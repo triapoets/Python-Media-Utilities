@@ -7,14 +7,14 @@ Project tools untuk pencarian file dan konversi MP4 ke MP3.
 ### 1. Di Linux (sudah setup):
 ```bash
 cd /root/python_projects
-git remote add origin https://github.com/username/your-repo-name.git
+git remote add origin git@github.com:triapoets/Mp4-to-Mp3.git
 git push -u origin master
 ```
 
 ### 2. Di Windows (clone):
 ```bash
-git clone https://github.com/username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/triapoets/Mp4-to-Mp3.git
+cd Mp4-to-Mp3
 ```
 
 ### 3. Workflow sync:
