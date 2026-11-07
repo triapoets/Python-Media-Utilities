@@ -85,31 +85,43 @@ python3 demo_converter.py
 
 ---
 
-## 📥 Download via FileZilla
+## 📚 Documentation
 
-**Server Info:**
-- **IP Address:** 192.168.1.86
-- **Protocol:** SFTP
-- **Port:** 22
-- **Username:** root
-- **Path:** `/root/python_projects/`
+Additional setup guides and documentation available in the [`docs/`](docs/) folder:
 
-**Langkah:**
-1. Buka FileZilla
-2. Connect ke server (Host: 192.168.1.86, Port: 22)
-3. Navigate ke `/root/python_projects/`
-4. Download file yang diinginkan
+- **[WSL2 Setup Guide](docs/WSL2_SETUP_GUIDE.md)** - Setup development environment on WSL2
+- **[Sync Guide](docs/SYNC_GUIDE.md)** - Git auto-sync configuration
+- **[Claude Desktop Proxy Setup](docs/CLAUDE_DESKTOP_PROXY_SETUP.md)** - SSH tunnel setup for Claude Desktop
 
 ---
 
-## 📝 Notes
+## 🚀 Getting Started
 
-- Semua program sudah ditest dan berfungsi dengan baik
-- File asli tetap ada di `/root/` (ini adalah copy)
-- Untuk penggunaan production, gunakan versi FFmpeg untuk converter
+1. Clone this repository:
+```bash
+git clone git@github.com:triapoets/Python-Media-Utilities.git
+cd Python-Media-Utilities
+```
+
+2. Install dependencies (if needed):
+```bash
+# For moviepy version
+pip install moviepy
+
+# For ffmpeg version (recommended)
+apt install ffmpeg  # Linux
+# or
+brew install ffmpeg  # macOS
+```
+
+3. Run the tools as described in each section above.
 
 ---
 
-**Created:** 2026-11-06
-**Location:** /root/python_projects/
-# Test auto-sync
+## 📝 License
+
+Free to use and modify.
+
+---
+
+**Repository:** https://github.com/triapoets/Python-Media-Utilities
