@@ -2,7 +2,7 @@
 
 Collection of Python utilities for media file processing and management.
 
-## 📋 Daftar Program
+## 🛠️ Tools
 
 ### 1. File Finder (`file_finder.py`)
 Program untuk mencari file berdasarkan extension dalam folder.
