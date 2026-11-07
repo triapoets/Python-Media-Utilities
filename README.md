@@ -1,9 +1,6 @@
-# Python Projects Collection
+# Python Media Utilities
 
-Kumpulan program Python yang telah dibuat.
-
-## 📁 Lokasi
-**Path:** `/root/python_projects/`
+Collection of Python utilities for media file processing and management.
 
 ## 📋 Daftar Program
 
